@@ -15,6 +15,10 @@ logger = logging.getLogger('blivedm')
 logged_unknown_cmds = {
     'COMBO_SEND',
     'ENTRY_EFFECT',
+    'ANCHOR_BROADCAST',
+    'ANCHOR_HELPER_DANMU',
+    'AREA_RANK_CHANGED',
+    'ENTRY_EFFECT_MUST_RECEIVE',
     'HOT_RANK_CHANGED',
     'HOT_RANK_CHANGED_V2',
     'INTERACT_WORD',
@@ -36,6 +40,13 @@ logged_unknown_cmds = {
     'STOP_LIVE_ROOM_LIST',
     'SUPER_CHAT_MESSAGE_JPN',
     'WIDGET_BANNER',
+    'WATCHED_CHANGE',
+    'ROOM_CHANGE',
+    'TRADING_SCORE',
+    'SPREAD_ORDER_START',
+    'SPREAD_ORDER_OVER',
+    'SPREAD_SHOW_FEET',
+    'SPREAD_SHOW_FEET_V2',
 }
 """已打日志的未知cmd"""
 
